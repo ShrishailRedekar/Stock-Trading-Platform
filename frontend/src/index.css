@@ -1,0 +1,43 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  margin: 0;
+  /* display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh; */
+}
+
+.nav-link{
+  margin-left: 40px;
+}
+
+#supportHero{
+  background-color: #387ed1;
+  color: white;
+  padding: 0.8rem;
+}
+#supportHero a{
+  color: white;
+  margin-left: 0.5rem;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 2rem;
+}
+
+#supportHero input{
+  padding: 0.5rem 6rem;
+  border-radius: 0.3rem;
+  border: none;
+}
